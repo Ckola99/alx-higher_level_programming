@@ -1,3 +1,4 @@
 #!/usr/bin/python3
+import sys
 number = 98
-print("{:d} Battery street".format(number))
+sys.stdout.write(f'{number} Battery street\n')
